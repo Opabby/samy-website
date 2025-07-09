@@ -397,6 +397,24 @@ main {
     margin: 0 auto;
 }
 
+#visual-flare{
+    padding: 0;
+}
+
+.fullWidthImg {
+    width: 100dvw;
+    height: 30rem;
+    background-image: url("images/fotos profissionais/fotoSofa.jpg");
+    background-position: center 43%;
+    background-size: 110%; /* Slightly larger for movement room */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    transition: background-size 0.1s ease-out;
+}
+
 /* Seção Serviços (Convertida para Grid) */
 #servicos-container {
     background-color: var(--cor-rosa);
